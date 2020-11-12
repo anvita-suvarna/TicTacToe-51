@@ -1,0 +1,128 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Josefin Sans', Arial, Helvetica, sans-serif;
+}
+.container{
+    width:100%;
+    height: 100vh;
+    background: linear-gradient(#c6da6b, #243b55)
+}
+
+
+header{
+    width: 100%;
+    line-height: 120px;
+    text-align: center;
+    text-shadow: 0 0 3px #FF0000, 0 0 5px #0000FF;
+    color: #fff;
+    font-size: 3em;
+    
+}
+
+.player{
+    width:100%;
+    
+}
+
+#p1{
+   
+    position: absolute;
+    left:35%;
+    
+}
+
+#p2{
+    
+    position: absolute;
+    left:55%;
+    
+}
+.player input {
+    width: 65%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: #6b839b;
+    overflow: hidden;
+  }
+
+  .player label{
+    position: absolute;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: #fff;
+    pointer-events: none;
+    transition: .5s;
+  }
+
+.player input:focus ~ label,
+.player input:valid ~ label {
+  top: -20px;
+  left: 0;
+  font-weight: bold;
+  color: #fff;
+  font-size: 12px;
+}
+
+.player button{
+    outline: none;
+    background: transparent;
+    color: #fff;
+    border: none;
+}
+
+button{
+    cursor: pointer;
+}
+
+.box{
+    position: absolute;
+    top: 30%;
+    left: 40%;
+    width: 310px;
+    height: 310px;
+    
+    cursor: pointer;
+    
+}
+
+table{
+    position: absolute;
+    top:1.70%;
+    left:1.55%;
+    border-collapse: collapse;
+    border-style: hidden;
+    border-color: rgba(0,0,0,0.5);
+}
+
+.area{
+    width: 79px;
+    height: 79px;
+    line-height: 79px;
+    font-size:56px;
+    text-align: center;
+    padding: 10px;
+    color: #bbcc29;
+}
+
+.area:hover{
+    background-color: rgba(0, 0, 0, 0.247);
+}
+
+footer{
+    position: relative;
+    top: 60%;
+    width: 100%;
+    line-height: 120px;
+    text-align: center;
+    color: #fff;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+}
